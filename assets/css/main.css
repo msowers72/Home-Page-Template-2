@@ -1922,3 +1922,15 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+
+/*--------------------------------------------------------------
+# added media query for the carousel button
+--------------------------------------------------------------*/
+
+@media only screen and (max-width: 1200px){
+    .next {
+    right: 12px;
+   
+}
+}
