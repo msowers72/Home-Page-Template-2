@@ -1923,6 +1923,14 @@ section,
   /* Add your styles here */
 }
 
+/*--------------------------------------------------------------
+# View the Biographies paragrph bottom of leadership page
+--------------------------------------------------------------*/
+.bio {
+  max-width: 760px;
+  text-align: center;
+  margin: 20px auto 0;
+}
 
 /*--------------------------------------------------------------
 # added media query for the carousel button
