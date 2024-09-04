@@ -15,7 +15,7 @@
   function toggleScrolled() {
     const selectBody = document.querySelector('body');
     const selectHeader = document.querySelector('#header');
-    if (!selectHeader.classList.contains('scroll-up-sticky') && !selectHeader.classList.contains('sticky-top') && !selectHeader.classList.contains('fixed-top')) return;
+    // if (!selectHeader.classList.contains('scroll-up-sticky') && !selectHeader.classList.contains('sticky-top') && !selectHeader.classList.contains('fixed-top')) return;
     window.scrollY > 100 ? selectBody.classList.add('scrolled') : selectBody.classList.remove('scrolled');
   }
 
@@ -32,7 +32,7 @@
     mobileNavToggleBtn.classList.toggle('bi-list');
     mobileNavToggleBtn.classList.toggle('bi-x');
   }
-  mobileNavToggleBtn.addEventListener('click', mobileNavToogle);
+  // mobileNavToggleBtn.addEventListener('click', mobileNavToogle);
 
   /**
    * Hide mobile nav on same-page/hash links
@@ -369,3 +369,19 @@ function showSlides(n) {
     slides[slideIndex - 1].style.display = 'block';
    
 };
+
+// Code for the new navbar
+let nav_toggle = document.querySelector('.nav_toggle');
+
+let nav_toggle_icon = document.querySelector('.nav_toggle ion-icon');
+
+let nav_menu = document.querySelector('.nav_menu');
+
+
+nav_toggle.addEventListener("click", () => {
+  
+  nav_menu.classList.toggle('active');
+  nav_toggle_icon.setAttribute('name',
+    nav_menu.classList.contains('active') ? 'close-outline' : 'menu-outline'
+  );
+});

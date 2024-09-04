@@ -39,58 +39,219 @@
 </head>
 
 <body class="index-page">
-
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-
-      <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">JAG Corps</h1>
-        <!-- <span></span> -->
-      </a>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <!-- The Home link had class="active" -->
-          <li><a href="./index.html">Home<br></a></li>
-          <li><a href="https://www.jagcnet.army.mil/Sites/jagc.nsf/help.xsp" target="_blank">Help</a></li>
-          <li><a href="https://www.jagcnet.army.mil/Sites/jagc.nsf/homeContent.xsp?documentId=218620BDB3FCBE65852587F70061B77F" target="_blank">Contact</a></li>
-          <li><a href="https://www.army.mil/" target="_blank">U.S Army</a></li>
-          <li><a href="https://login.milsuite.mil/?goto=https%3A%2F%2Fwww.milsuite.mil%3A443%2Fbook%2Fcommunity%2Fspaces%2Farmyjag" target="_blank">Milsuite</a></li>
-          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li> -->
-          <li><a href="#contact">JAGU</a></li>
-          <li><a href="#contact">Public Admin Login</a></li>
-          <li><a href="#contact">Login to JAGCNet</a></li>
+<!-- New Header -->
+  <header>
+    <div class="container">
+      <nav class="navigation">
+        <a href="#" class="logo">          
+          <img src="/assets/images/usarmy.svg" alt="Logo" class="logo-img" />
+          <p>JAG Corps</p>
+        </a>
+        <ul class="nav_menu">
+          <li class="nav_list">
+            <a href="#" class="nav_link">
+              <span>Home</span>
+            </a>
+          </li>
+          <li class="nav_list nav_list_menu">
+            <a href="#" class="nav_link">
+              <span>Products</span>
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </a>
+            <div class="dropdown">
+              <div class="dropdown-inner">
+  
+  
+                <div class="dropdown-item">
+                  <h3 class="item-heading">Products</h3>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="/assets/images/icon-1.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Team dashboard</h4>
+                      <p>Monitor your metrics.</p>
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="/assets/images/icon-2.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Limitless segmentation</h4>
+                      <p>Surface hidden trends.</p>
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="/assets/images/icon-3.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Group analytics</h4>
+                      <p>Learn about your users</p>
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="/assets/images/icon-4.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <span class="info-badge">New</span>
+                      <h4>Interactive reports</h4>
+                      <p>Measure B2B account health.</p>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="dropdown-item">
+                  <h3 class="item-heading">Use cases</h3>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="/assets/images/icon-5.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Convert</h4>
+                      <p>Analyze conversion rates.</p>
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="/assets/images/icon-6.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Engage</h4>
+                      <p>Measure active usage.</p>
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="/assets/images/icon-7.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Retain</h4>
+                      <p>Find retention drivers.</p>
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="/assets/images/icon-8.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Grow</h4>
+                      <p>Grow your user base faster.</p>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="dropdown-item">
+                  <h3 class="item-heading">Resources</h3>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="/assets/images/icon-9.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Blog</h4>
+                      <p>The latest industry news.</p>
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="/assets/images/icon-10.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Customer stories</h4>
+                      <p>Learn how our customers.</p>
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="/assets/images/icon-11.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Video tutorials</h4>
+                      <p>New features and techniques.</p>
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="/assets/images/icon-12.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Documentation</h4>
+                      <p>All the boring stuff.</p>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="dropdown-item">
+                  <h3 class="item-heading">Company</h3>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="/assets/images/icon-13.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>About us</h4>
+                      <p>Learn about our story.</p>
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="/assets/images/icon-14.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Press</h4>
+                      <p>News and press resources.</p>
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="/assets/images/icon-15.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <span class="info-badge">We’re hiring!</span>
+                      <h4>Careers</h4>
+                      <p>Join our team!</p>
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="/assets/images/icon-16.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Legal</h4>
+                      <p>All the boring stuff.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav_list">
+            <a href="#" class="nav_link">
+              <span>Resources</span>
+            </a>
+          </li>
+          <li class="nav_list">
+            <a href="#" class="nav_link">
+              <span>Pricing</span>
+            </a>
+          </li>
         </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        <div class="nav_action">
+          <a href="#" class="btn">Log in</a>
+          <a href="#" class="btn-primary">Sign up</a>
+          <div class="nav_toggle">
+            <ion-icon name="menu-outline"></ion-icon>
+          </div>
+        </div>
       </nav>
-
-      <a class="btn-getstarted" href="index.html#about">Get Started</a>
-
     </div>
   </header>
 
   <main class="main">
 
     <!-- Hero Section -->
-    <section id="hero" class="hero section">
+    <!-- <section id="hero" class="hero section">
 
       <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
 
@@ -138,7 +299,8 @@
 
       </div>
 
-    </section><!-- /Hero Section -->
+    </section> -->
+    <!-- /Hero Section -->
 
     <!-- About Section -->
     <section id="about" class="about section">
@@ -183,7 +345,7 @@
               magna aliqua.
             </p> -->
             <ul class="announce1">
-              <li><i class="bi bi-check2-all"></i> <span><a style="color: black;" href="">JAGCNet Cloud Migration 12-19
+              <li><i class="bi bi-check2-all"></i> <span><a style="color: black;" href="#">JAGCNet Cloud Migration 12-19
                     July 2024</a></span>
               </li>
               <li><i class="bi bi-check2-all"></i> <span><a style="color: black;" href="">JAGCNet Account Requirement +
@@ -268,69 +430,7 @@
 
     </section><!-- /About Section -->
 
-    <!-- Clients Section -->
-    <section id="clients" class="clients section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              },
-              "breakpoints": {
-                "320": {
-                  "slidesPerView": 2,
-                  "spaceBetween": 40
-                },
-                "480": {
-                  "slidesPerView": 3,
-                  "spaceBetween": 60
-                },
-                "640": {
-                  "slidesPerView": 4,
-                  "spaceBetween": 80
-                },
-                "992": {
-                  "slidesPerView": 6,
-                  "spaceBetween": 120
-                }
-              }
-            }
-          </script>
-          <div class="swiper-wrapper align-items-center">
-            <!-- <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div> -->
-            <div class="swiper-slide"><a href="https://www.jagcnet.army.mil/sites/Advocacy.nsf" target="_blank">Advocacy</a></div>
-            <!-- <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div> -->
-            <div class="swiper-slide"><a href="./library.html" target="_blank">Libraries</a></div>
-            <!-- <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div> -->
-            <div class="swiper-slide"><a href="./foia.html" target="_blank">FOIA</a></div>
-            <!-- <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div> -->
-            <div class="swiper-slide"><a href="./Access.html" target="_blank">Access</a></div>
-            <!-- <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div> -->
-            <div class="swiper-slide"><a href="https://www.jagcnet.army.mil/ppto" target="_blank">Personnel</a></div>
-            <!-- <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div> -->
-            <div class="swiper-slide"><a href="https://www.jagcnet.army.mil/Sites/CP56.nsf" target="_blank">CP-56</a></div>
-            <!-- <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div> -->
-            <div class="swiper-slide"><a href="./wellness.html" target="_blank">Wellness</a></div>
-            <!-- <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div> -->
-            <div class="swiper-slide"><a href="https://www.army.mil/ostc" target="_blank">OSTC</a></div>
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-
-    </section><!-- /Clients Section -->
+   
 
     <!-- Features Section -->
     <!-- <section id="features" class="features section">
@@ -484,28 +584,7 @@
 
     </section><!-- /Services Section -->
 
-    <!-- Call To Action Section -->
-    <section id="call-to-action" class="call-to-action section">
-
-      <img src="assets/img/cta-bg.jpg" alt="">
-
-      <div class="container">
-        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
-          <div class="col-xl-10">
-            <div class="text-center">
-              <h3>Join The Judge Advocate General's Corps</h3>
-              <p>The Army Judge Advocate General’s Corps is a different kind of legal practice. You will work with
-                amazing teammates for
-                an organization that values your contributions, be exposed to a broad spectrum of legal practice and
-                perform a mission
-                that truly makes a difference in our Army and our nation.</p>
-              <a class="cta-btn" href="#">Apply</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </section><!-- /Call To Action Section -->
+   
 
     <!-- Portfolio Section -->
     <!-- <section id="portfolio" class="portfolio section"> -->
@@ -703,91 +782,7 @@
     <!-- Team Section -->
    <!-- /Team Section -->
     
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Contact Us</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.515745473493!2d-77.15207932244438!3d38.70596647176553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7ac882681f607%3A0x4f75fe2b1d6e60b8!2s9275%20Gunston%20Rd%2C%20Fort%20Belvoir%2C%20VA%2022060!5e0!3m2!1sen!2sus!4v1718736916093!5m2!1sen!2sus"
-            width="100%" height="270" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div><!-- End Google Maps -->
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4">
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi bi-geo-alt flex-shrink-0"></i>
-              <div>
-                <h3>Address</h3>
-                <p>9275 Gunston Rd, Fort Belvoir, VA 22060</p>
-              </div>
-            </div><!-- End Info Item -->
-
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-telephone flex-shrink-0"></i>
-              <div>
-                <h3>Call Us</h3>
-                <p>+1 5589 55488 55</p>
-              </div>
-            </div><!-- End Info Item -->
-
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
-              <i class="bi bi-envelope flex-shrink-0"></i>
-              <div>
-                <h3>Email Us</h3>
-                <p>info@example.com</p>
-              </div>
-            </div><!-- End Info Item -->
-
-          </div>
-
-          <div class="col-lg-8">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
-              data-aos-delay="200">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-                </div>
-
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Contact Form -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Contact Section -->
+   
 
   </main>
 
@@ -885,6 +880,8 @@
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
