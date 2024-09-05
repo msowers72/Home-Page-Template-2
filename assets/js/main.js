@@ -385,3 +385,5 @@ nav_toggle.addEventListener("click", () => {
     nav_menu.classList.contains('active') ? 'close-outline' : 'menu-outline'
   );
 });
+
+// sticky navbar
