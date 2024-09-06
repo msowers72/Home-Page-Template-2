@@ -343,8 +343,13 @@ header .container .navigation ul li h4 a {
   padding: 17px;
   cursor: pointer;
   }
+
+  header {
+    position: relative;
+  }
+
   body {
-    margin-top: 400px;
+    margin-top: 0;
   }
 }
 
