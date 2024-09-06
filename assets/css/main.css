@@ -79,9 +79,10 @@ html {
 
 body {
   color: var(--default-color);
-  background-color: var(--background-color);
+  background-color: var(--nav-dropdown-hover-color);
   font-family: var(--default-font);
   font-size: 1.6rem;
+  margin-top: 150px;
 }
 
 a {
@@ -111,7 +112,8 @@ h6 {
 .my-nav {
   background: #221F20;
    display: flex;
-   justify-content: space-between;
+   justify-content: space-between;   
+   
 }
 .my-nav-secondary-wrapper .my-nav-secondary-item a {
  
@@ -129,18 +131,24 @@ h6 {
 
 .my-nav-secondary-wrapper .my-nav-secondary-item a:hover {
   color: #ee5353;
+ 
   }
 
   .my-nav-secondary-wrapper .my-nav-secondary-item {  
   display: inline-block;
   padding: 17px;
   cursor: pointer;
+   
   }
 
 
 header {
    background: #221F20;
-   
+   position: fixed;
+   width: 100%;
+   top: 0;
+   left: 0; 
+   z-index: 100;  
 }
 
 header .container .navigation {
@@ -312,6 +320,8 @@ header .container .navigation ul li h4 a {
   color: #fff;
   margin-left: 10px;
 }
+
+
 
 @media (max-width: 500px) {
   .my-nav {
@@ -1169,6 +1179,7 @@ section,
 --------------------------------------------------------------*/
 .about.section {
 box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
 }
 .about .content h3 {
   font-size: 1.75rem;
@@ -2224,3 +2235,7 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3)
    
 }
 }
+
+
+
+
