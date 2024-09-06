@@ -130,7 +130,7 @@ h6 {
 }
 
 .my-nav-secondary-wrapper .my-nav-secondary-item a:hover {
-  color: #ee5353;
+  color: var(--nav-hover-color);
  
   }
 
@@ -342,6 +342,9 @@ header .container .navigation ul li h4 a {
   display: block;
   padding: 17px;
   cursor: pointer;
+  }
+  body {
+    margin-top: 400px;
   }
 }
 
@@ -1182,7 +1185,7 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3)
 
 }
 .about .content h3 {
-  font-size: 1.75rem;
+  font-size: 4rem;
   font-weight: 700;
 }
 
