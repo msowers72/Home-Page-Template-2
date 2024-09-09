@@ -17,6 +17,15 @@
   --nav-font: "Poppins",  sans-serif;
 }
 
+@font-face {
+    font-display: block;
+    font-family: armyicons;
+    font-style: normal;
+    font-weight: 400;
+    src: url(/fonts/armyicons.eot?b3de7f8a2ed1d21f1d081a0b809fc5a0);
+    src: url(/fonts/armyicons.eot?b3de7f8a2ed1d21f1d081a0b809fc5a0) format("embedded-opentype"),url(/fonts/armyicons.woff2?908b9ffa37eee703dd72500b58e3a04c) format("woff2"),url(/fonts/armyicons.ttf?8e0d1af4ec6232b5bdd2b63f80626fba) format("truetype"),url(/fonts/armyicons.woff?5b4668f943d12c15f084b2e93a2496ea) format("woff"),url(/fonts/armyicons.svg?804643b83acb36eb7a63127f65717af1) format("svg")
+}
+
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
@@ -75,14 +84,23 @@ html {
     font-family: 'Inter', sans-serif;
     font-size: 62.5%;
     font-style: normal;
+    overflow-x: hidden;
 }
+/* eample of amry font */
+/* .army-font {
+    color: #221f20;
+    font: normal 1em/1.625 GI,Overpass,sans-serif;
+} */
 
 body {
   color: var(--default-color);
   background-color: var(--nav-dropdown-hover-color);
-  font-family: var(--default-font);
+  /* font-family: var(--default-font); */
+  font: normal 1em/1.625 GI,Overpass,sans-serif;
   font-size: 1.6rem;
   margin-top: 150px;
+  /* position: fixed; */
+  overflow-x: hidden;
 }
 
 a {
@@ -103,7 +121,7 @@ h4,
 h5,
 h6 {
   color: var(--heading-color);
-  font-family: var(--heading-font);
+  /* font-family: var(--heading-font); */
 }
 
 /*--------------------------------------------------------------
@@ -118,7 +136,7 @@ h6 {
 .my-nav-secondary-wrapper .my-nav-secondary-item a {
  
   color: #fff;
-  font-family: "proxima-nova";
+  /* font-family: "proxima-nova"; */
   font-size: 13px;
   text-transform: uppercase;
   text-decoration: none;
@@ -475,7 +493,7 @@ header .container .navigation ul li h4 a {
     color: var(--nav-color);
     padding: 18px 15px;
     font-size: 16px;
-    font-family: var(--nav-font);
+    /* font-family: var(--nav-font); */
     font-weight: 400;
     display: flex;
     align-items: center;
@@ -593,7 +611,7 @@ header .container .navigation ul li h4 a {
   .navmenu a:focus {
     color: var(--nav-dropdown-color);
     padding: 10px 20px;
-    font-family: var(--nav-font);
+    /* font-family: var(--nav-font); */
     font-size: 17px;
     font-weight: 500;
     display: flex;
@@ -714,13 +732,13 @@ header .container .navigation ul li h4 a {
   font-size: 26px;
   font-weight: 700;
   letter-spacing: 1px;
-  font-family: var(--heading-font);
+  /* font-family: var(--heading-font); */
   color: var(--heading-color);
 }
 
 .footer .footer-about p {
   font-size: 14px;
-  font-family: var(--heading-font);
+  /* font-family: var(--heading-font); */
 }
 
 .footer .social-links a {
@@ -1119,7 +1137,7 @@ section,
   margin: 0;
   font-size: 50px;
   font-weight: 700;
-  font-family: var(--nav-font);
+  /* font-family: var(--nav-font); */
 }
 
 .hero h2 span {
@@ -1201,6 +1219,7 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3)
 .about .content ul {
   list-style: none;
   padding: 0;
+  font-size: 1.5rem;
 }
 
 .about .content ul li {
@@ -1392,7 +1411,7 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3)
 }
 
 .call-to-action .cta-btn {
-  font-family: var(--heading-font);
+  /* font-family: var(--heading-font); */
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -1432,7 +1451,7 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3)
   margin-bottom: 5px;
   border-radius: 4px;
   transition: all 0.3s ease-in-out;
-  font-family: var(--heading-font);
+  /* font-family: var(--heading-font); */
 }
 
 .portfolio .portfolio-filters li:hover,
@@ -1538,7 +1557,7 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3)
   color: color-mix(in srgb, var(--default-color), transparent 40%);
   padding: 15px 0 0 0;
   margin: 0;
-  font-family: var(--heading-font);
+  /* font-family: var(--heading-font); */
   font-size: 14px;
 }
 
@@ -2084,6 +2103,10 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3)
  margin-bottom: 0px;
 }
 
+.page-container .my-pagination ul.my-list li {
+  font-size: 1.5rem;
+}
+
 .my-list li.page-link {
     color: #000;
     
@@ -2108,7 +2131,7 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3)
 .page-btn1, .page-btn2 {
    display: inline-flex;
    align-items: center;
-   font-size: 1rem;
+   font-size: 1.5rem;
    font-weight: 500;
    color: #383838;
    background: transparent;
