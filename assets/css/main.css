@@ -794,6 +794,18 @@ desktop-nav li:nth-of-type(1),
         opacity: 1;
     }
 
+    @media (max-width: 500px) {
+    .search-container .quick-links ul li a {
+    display: inline-block;
+    width: 100%;
+    padding: 8px 50px;
+    font-size: 7.5px;
+    color: #1d1d1f;
+    text-decoration: none;
+    font-weight: 800;
+}
+    }
+
     /* Mobile Nav */
     nav .mobile-nav {
         display: flex;
