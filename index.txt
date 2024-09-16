@@ -1,0 +1,1965 @@
+ <header id="header" >
+    
+    <!-- Top nav section -->
+    <div class="my-nav my-nav-secondary-wrapper">
+      
+      <a href="#" class="logo">
+        <img src="./assets/images/usarmy.svg" alt="Logo" class="logo-img" />
+        <p>JAG Corps</p>
+      </a>
+      <nav aria-label="Header Secondary Nav">
+        <ul class="my-nav-secondary">
+          <li class="my-nav-secondary-item">
+            <a href="/news">Home</a>
+          </li>
+          <li class="my-nav-secondary-item">
+            <a href="/calendar">Help</a>
+          </li>
+          <li class="my-nav-secondary-item">
+            <a href="/give">Contact</a>
+          </li>
+          <li class="my-nav-secondary-item">
+            <a href="/campus-plan" class="style-btn">Public Admin Login</a>
+          </li>
+          <li class="my-nav-secondary-item">
+            <a href="/campus-plan" class="style-btn"> Login to JAGCNet</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="mobile-drop">Drop Down Menu</div>
+    </div>
+    <div class="container">
+     
+      <!-- mega menu nav -->
+      <nav class="navigation">
+        <!-- <a href="#" class="logo">
+          <img src="./assets/images/usarmy.svg" alt="Logo" class="logo-img" />
+          <p>JAG Corps</p>
+        </a> -->
+        <ul class="nav_menu">
+          <!-- <li class="nav_list">
+            <a href="#" class="nav_link">
+              <span>Home</span>
+            </a>
+          </li> -->
+          <!-- Leadership -->
+          <li class="nav_list nav_list_menu">
+            <a href="#" class="nav_link">
+              <span>Leadership</span>
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </a>
+            <div class="dropdown">
+              <div class="dropdown-inner">
+
+
+                <div class="dropdown-item">
+                  <h3 class="item-heading">Leadership</h3>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-1.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a
+                          href="https://www.jagcnet.army.mil/Sites/JAGC.nsf/homeContent.xsp?open&documentId=3AA7D6323ACEBD6A85258B650077B753"
+                          target="_blank">Leadership</a></h4>
+                      <!-- <p>Monitor your metrics.</p> -->
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-2.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a
+                          href="https://www.jagcnet.army.mil/Sites/jagc.nsf/homeContent.xsp?open&documentId=DEE613DFEC84B73B852579BC006142CE"
+                          target="_blank">Mission and Vision</a></h4>
+                      <!-- <p>Surface hidden trends.</p> -->
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-3.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a
+                          href="https://www.jagcnet.army.mil/Sites/jagc.nsf/homeContent.xsp?documentId=A7D21BDE69E7A0E685258801005858F8"
+                          target="_blank">JAG Corps Strategy</a></h4>
+                      <!-- <p>Learn about your users</p> -->
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-4.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <!-- <span class="info-badge">New</span> -->
+                      <h4><a
+                          href="https://www.jagcnet.army.mil/Sites/jagc.nsf/91EFF120637EC24D85257DB7005D879C/$File/JAGC%20Poster%202014.pdf"
+                          target="_blank">JAGC Poster</a></h4>
+                      <!-- <p>Measure B2B account health.</p> -->
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-6.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <!-- <span class="info-badge">New</span> -->
+                      <h4><a
+                          href="https://www.jagcnet.army.mil/Sites/JAGC.nsf/46DCA0CA1EE75266852586C5004A681F/$File/US%20Army%20JAG%20Corps%20Four%20Constants%20Smart%20Card.pdf"
+                          target="_blank">US Army JAG Corps </a></h4>
+                      <p>Four “Constants” Smart Card</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="dropdown-item">
+                  <h3 class="item-heading">Resources</h3>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-9.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="#">Army OneSource</a></h4>
+                      <!-- <p>The latest industry news.</p> -->
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-10.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="#">Army Knowledge Online</a></h4>
+                      <!-- <p>Learn how our customers.</p> -->
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-11.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="https://login.milsuite.mil/?goto=https%3A%2F%2Fwww.milsuite.mil%3A443%2F"
+                          target="_blank">MilSuite</a></h4>
+                      <!-- <p>New features and techniques.</p> -->
+                    </div>
+                  </div>
+                  <!-- <div class="item-list">
+                                      <div class="item-img">
+                                        <img src="./assets/images/icon-12.svg" alt="Icon" />
+                                      </div>
+                                      <div class="item-list-info">
+                                        <h4>Documentation</h4>
+                                        <p>All the boring stuff.</p>
+                                      </div>
+                                    </div> -->
+                </div>
+                <div class="dropdown-item">
+                  <h3 class="item-heading">Organizations</h3>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-5.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a
+                          href="https://www.jagcnet.army.mil/Sites/JAGC.nsf/homeContent.xsp?open&documentId=7A2BDED61356AFAC852579F400662B36"
+                          target="_blank">Reserve Army Office </a></h4>
+                      <p>Legal Websites</p>
+                    </div>
+                  </div>
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-6.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Engage</h4>
+                      <p>Measure active usage.</p>
+                    </div>
+                  </div> -->
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-7.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Retain</h4>
+                      <p>Find retention drivers.</p>
+                    </div>
+                  </div> -->
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-8.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Grow</h4>
+                      <p>Grow your user base faster.</p>
+                    </div>
+                  </div> -->
+                </div>
+
+
+
+                <div class="dropdown-item">
+                  <h3 class="item-heading">In Memoriam</h3>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-13.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="https://www.jagcnet.army.mil/Sites/JAGC.nsf/inMemoriam.xsp" target="_blank">In
+                          Memoriam</a></h4>
+                      <!-- <p>Learn about our story.</p> -->
+                    </div>
+                  </div>
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-14.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Press</h4>
+                      <p>News and press resources.</p>
+                    </div>
+                  </div> -->
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-15.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <span class="info-badge">We’re hiring!</span>
+                      <h4>Careers</h4>
+                      <p>Join our team!</p>
+                    </div>
+                  </div> -->
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-16.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Legal</h4>
+                      <p>All the boring stuff.</p>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- Careers -->
+          <li class="nav_list nav_list_menu">
+            <a href="#" class="nav_link">
+              <span>Careers</span>
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </a>
+            <div class="dropdown">
+              <div class="dropdown-inner">
+                <div class="dropdown-item">
+                  <h3 class="item-heading">Military Spouse </h3>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-13.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="https://myaccess.dmdc.osd.mil/identitymanagement/app/login" target="_blank">Attorney
+                          Hiring Program</a></h4>
+                      <p>Registration and update
+                        profile</p>
+                    </div>
+                  </div>
+                  <!-- <div class="item-list">
+                                      <div class="item-img">
+                                        <img src="./assets/images/icon-14.svg" alt="Icon" />
+                                      </div>
+                                      <div class="item-list-info">
+                                        <h4>Press</h4>
+                                        <p>News and press resources.</p>
+                                      </div>
+                                    </div> -->
+                  <!-- <div class="item-list">
+                                      <div class="item-img">
+                                        <img src="./assets/images/icon-15.svg" alt="Icon" />
+                                      </div>
+                                      <div class="item-list-info">
+                                        <span class="info-badge">We’re hiring!</span>
+                                        <h4>Careers</h4>
+                                        <p>Join our team!</p>
+                                      </div>
+                                    </div> -->
+                  <!-- <div class="item-list">
+                                      <div class="item-img">
+                                        <img src="./assets/images/icon-16.svg" alt="Icon" />
+                                      </div>
+                                      <div class="item-list-info">
+                                        <h4>Legal</h4>
+                                        <p>All the boring stuff.</p>
+                                      </div>
+                                    </div> -->
+                </div>
+
+                <div class="dropdown-item">
+                  <h3 class="item-heading">Lawyers</h3>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-1.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="https://www.jagcnet.army.mil/GoArmyJAG" target="_blank">Learn More</a></h4>
+                      <!-- <p>Monitor your metrics.</p> -->
+                    </div>
+                  </div>
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-2.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Limitless segmentation</h4>
+                      <p>Surface hidden trends.</p>
+                    </div>
+                  </div> -->
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-3.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Group analytics</h4>
+                      <p>Learn about your users</p>
+                    </div>
+                  </div> -->
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-4.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <span class="info-badge">New</span>
+                      <h4>Interactive reports</h4>
+                      <p>Measure B2B account health.</p>
+                    </div>
+                  </div> -->
+                </div>
+
+                <div class="dropdown-item">
+                  <h3 class="item-heading">Internship/Externship</h3>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-5.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="https://www.jagcnet.army.mil/GoArmyJAG" target="_blank">Learn More</a></h4>
+                      <!-- <p>Analyze conversion rates.</p> -->
+                    </div>
+                  </div>
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-6.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Engage</h4>
+                      <p>Measure active usage.</p>
+                    </div>
+                  </div> -->
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-7.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Retain</h4>
+                      <p>Find retention drivers.</p>
+                    </div>
+                  </div> -->
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-8.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Grow</h4>
+                      <p>Grow your user base faster.</p>
+                    </div>
+                  </div> -->
+                </div>
+
+                <div class="dropdown-item">
+                  <h3 class="item-heading">Paralegals/Civilians</h3>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-9.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="https://www.jagcnet.army.mil/GoArmyJAG" target="_blank">Learn More</a></h4>
+                      <!-- <p>The latest industry news.</p> -->
+                    </div>
+                  </div>
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-10.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Customer stories</h4>
+                      <p>Learn how our customers.</p>
+                    </div>
+                  </div> -->
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-11.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Video tutorials</h4>
+                      <p>New features and techniques.</p>
+                    </div>
+                  </div> -->
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-12.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Documentation</h4>
+                      <p>All the boring stuff.</p>
+                    </div>
+                  </div> -->
+                </div>
+
+
+
+              </div>
+            </div>
+          </li>
+          <!-- Legal Services -->
+          <li class="nav_list nav_list_menu">
+            <a href="#" class="nav_link">
+              <span>Legal Services</span>
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </a>
+            <div class="dropdown">
+              <div class="dropdown-inner">
+
+                <div class="dropdown-item">
+                  <h3 class="item-heading">Legal Assistance</h3>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-5.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="https://www.jagcnet.army.mil/Legal" target="_blank">Legal Services Website</a></h4>
+                      <!-- <p>Analyze conversion rates.</p> -->
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-6.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="https://legalassistance.law.af.mil/" target="_blank">Legal Assistance Offices</a>
+                      </h4>
+                      <!-- <p>Measure active usage.</p> -->
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-7.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="https://www.jagcnet.army.mil/Sites/OSC.nsf" target="_blank">Office of the Soldier's
+                          Counsel</a></h4>
+                      <!-- <p>Find retention drivers.</p> -->
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-11.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="https://www.jagcnet.army.mil/Sites/ProcurementFraud.nsf" target="_blank">Procurement
+                          Fraud Division</a></h4>
+                      <!-- <p>Grow your user base faster.</p> -->
+                    </div>
+                  </div>
+                </div>
+                <div class="dropdown-item">
+                  <h3 class="item-heading">Claims</h3>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-1.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="https://www.jagcnet.army.mil/USARCS" target="_blank">Claims Website</a></h4>
+                      <!-- <p>Monitor your metrics.</p> -->
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-2.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="https://www.jagcnet.army.mil/Apps/PCLAIMS/PCLAIMSPublic.nsf" target="_blank">File a
+                          Personnel Claim</a></h4>
+                      <!-- <p>Surface hidden trends.</p> -->
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-3.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a
+                          href="https://www.jagcnet.army.mil/Sites/claims.nsf/homeContent.xsp?documentId=66BD58E0FFF0D03385257ABF0065D596"
+                          target="_blank">How to File a Tort Claim</a></h4>
+                      <!-- <p>Learn about your users</p> -->
+                    </div>
+                  </div>
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-4.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <span class="info-badge">New</span>
+                      <h4>Interactive reports</h4>
+                      <p>Measure B2B account health.</p>
+                    </div>
+                  </div> -->
+                </div>
+                <div class="dropdown-item">
+                  <h3 class="item-heading">Ethics</h3>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-9.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="#" target="_blank">Online Ethics Training</a></h4>
+                      <!-- <p>The latest industry news.</p> -->
+
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-10.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="#" target="_blank">Initial Ethics Training for New Personnel</a></h4>
+                      <!-- <p>Learn how our customers.</p> -->
+                    </div>
+
+                  </div>
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-11.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Video tutorials</h4>
+                      <p>New features and techniques.</p>
+                    </div>
+                  </div> -->
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-12.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Documentation</h4>
+                      <p>All the boring stuff.</p>
+                    </div>
+                  </div> -->
+                </div>
+
+                <div class="dropdown-item">
+                  <h3 class="item-heading">Trial Defense Service</h3>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-13.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="https://www.jagcnet.army.mil/TDS" target="_blank">Trial Defense Service</a></h4>
+                      <!-- <p>Learn about our story.</p> -->
+                    </div>
+                  </div>
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-14.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Press</h4>
+                      <p>News and press resources.</p>
+                    </div>
+                  </div> -->
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-15.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <span class="info-badge">We’re hiring!</span>
+                      <h4>Careers</h4>
+                      <p>Join our team!</p>
+                    </div>
+                  </div> -->
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-16.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Legal</h4>
+                      <p>All the boring stuff.</p>
+                    </div>
+                  </div> -->
+                </div>
+
+              </div>
+            </div>
+          </li>
+          <!-- courts -->
+          <li class="nav_list nav_list_menu">
+            <a href="#" class="nav_link">
+              <span>Courts</span>
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </a>
+            <div class="dropdown">
+              <div class="dropdown-inner">
+
+
+                <div class="dropdown-item">
+                  <h3 class="item-heading">U.S. Army Trial Judiciary</h3>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-1.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="https://www.jagcnet.army.mil/USATJ" target="_blank">Website</a></h4>
+                      <!-- <p>Monitor your metrics.</p> -->
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-2.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="https://www.jagcnet.army.mil/Apps/eDocket/eDocketPublic.nsf"
+                          target="_blank">eDocket</a></h4>
+                      <!-- <p>Surface hidden trends.</p> -->
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-3.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="#" target="_blank">Random Number Generator </a></h4>
+                      <p>(Classic Version)</p>
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-4.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <!-- <span class="info-badge">New</span> -->
+                      <h4><a href="https://www.jagcnet.army.mil/PMRG" target="_blank">Court-Martial Panel</a></h4>
+                      <p>Randomization Generator</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="dropdown-item">
+                  <h3 class="item-heading">U.S. Army Court </h3>
+                  <h3>of Criminal Appeals</h3>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-5.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="https://www.jagcnet.army.mil/ACCA" target="_blank">Website</a></h4>
+                      <!-- <p>Analyze conversion rates.</p> -->
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-6.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="https://www.jagcnet.army.mil/ACCALibrary/cases/opinions/OC"
+                          target="_blank">Opinions</a></h4>
+                      <!-- <p>Measure active usage.</p> -->
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-7.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="https://www.jagcnet.army.mil/RulesofCourt" target="_blank">Rules of the Court</a>
+                      </h4>
+                      <!-- <p>Find retention drivers.</p> -->
+                    </div>
+                  </div>
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-8.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Grow</h4>
+                      <p>Grow your user base faster.</p>
+                    </div>
+                  </div> -->
+                </div>
+
+                <div class="dropdown-item">
+                  <h3 class="item-heading">U.S. Court of Appeals for</h3>
+                  <h3>the Armed Forces</h3>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-9.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="https://www.armfor.uscourts.gov/newcaaf/home.htm" tabindex="">Website</a></h4>
+                      <p>The latest industry news.</p>
+                    </div>
+                  </div>
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-10.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Customer stories</h4>
+                      <p>Learn how our customers.</p>
+                    </div>
+                  </div> -->
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-11.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Video tutorials</h4>
+                      <p>New features and techniques.</p>
+                    </div>
+                  </div> -->
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-12.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Documentation</h4>
+                      <p>All the boring stuff.</p>
+                    </div>
+                  </div> -->
+                </div>
+
+                <div class="dropdown-item">
+                  <h3 class="item-heading">U.S. Supreme Court</h3>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-13.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="https://www.supremecourt.gov/" target="_blank">Website</a></h4>
+                      <!-- <p>Learn about our story.</p> -->
+                    </div>
+                  </div>
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-14.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Press</h4>
+                      <p>News and press resources.</p>
+                    </div>
+                  </div> -->
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-15.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <span class="info-badge">We’re hiring!</span>
+                      <h4>Careers</h4>
+                      <p>Join our team!</p>
+                    </div>
+                  </div> -->
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-16.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Legal</h4>
+                      <p>All the boring stuff.</p>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- Public Doc Libraries -->
+          <li class="nav_list nav_list_menu">
+            <a href="#" class="nav_link">
+              <span>Public Docs</span>
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </a>
+            <div class="dropdown">
+              <div class="dropdown-inner">
+
+
+                <div class="dropdown-item">
+                  <h3 class="item-heading">Legal Disciplines</h3>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-1.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="#">Administrative and Civil Law</a></h4>
+                      <!-- <p>Monitor your metrics.</p> -->
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-2.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="#">Claims</a></h4>
+                      <!-- <p>Surface hidden trends.</p> -->
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-3.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="#" target="_blank">Contract and Fiscal law</a></h4>
+                      <!-- <p>Learn about your users</p> -->
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-4.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <!-- <span class="info-badge">New</span> -->
+                      <h4><a href="#">National Security Law</a></h4>
+                      <!-- <p>Measure B2B account health.</p> -->
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-14.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <!-- <span class="info-badge">New</span> -->
+                      <h4><a href="#">Legal Assistance</a></h4>
+                      <!-- <p>Measure B2B account health.</p> -->
+                    </div>
+                  </div>
+                </div>
+
+                <div class="dropdown-item">
+                  <h3 class="item-heading">The Advocacy Trainer</h3>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-5.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a
+                          href="https://www.jagcnet.army.mil/Sites/JAGC.nsf/F3FBB5D831EAED2F8525855F006400F2/%24File/2019%20Advocacy%20Trainer.pdf"
+                          target="_blank">Advocacy Trainer </a></h4>
+                      <p>(PDF Manual only)</p>
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-6.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a
+                          href="https://www.jagcnet.army.mil/Sites/jagc.nsf/homeContent.xsp?documentId=7C4D0630163282308525855F00647525"
+                          target="_blank">Advocacy Trainer </a></h4>
+                      <p>(PDF Manual and Videos)</p>
+                    </div>
+                  </div>
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-7.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Retain</h4>
+                      <p>Find retention drivers.</p>
+                    </div>
+                  </div> -->
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-8.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Grow</h4>
+                      <p>Grow your user base faster.</p>
+                    </div>
+                  </div> -->
+                </div>
+
+                <div class="dropdown-item">
+                  <h3 class="item-heading">Leadership</h3>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-9.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a
+                          href="https://www.jagcnet.army.mil/Sites/jagc.nsf/EE26CE7A9678A67A85257E1300563559/$File/CommandersLegalHandbook.pdf"
+                          target="_blank">Commander's Legal </a></h4>
+                      <p>Handbook</p>
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-10.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="https://www.jagcnet.army.mil/lawofficemanagement" target="_blank">Law Office
+                          Management</a></h4>
+                      <!-- <p>Learn how our customers.</p> -->
+                    </div>
+                  </div>
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-11.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Video tutorials</h4>
+                      <p>New features and techniques.</p>
+                    </div>
+                  </div> -->
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-12.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Documentation</h4>
+                      <p>All the boring stuff.</p>
+                    </div>
+                  </div> -->
+                </div>
+
+                <div class="dropdown-item">
+                  <h3 class="item-heading">Personnel, Plans</h3>
+                  <h3>& Training Office</h3>
+
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-13.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="#" target="_blank">Pub 1-1</a></h4>
+                      <!-- <p>Learn about our story.</p> -->
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-14.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a
+                          href="https://www.jagcnet.army.mil/Sites/JAGC.nsf/homeContent.xsp?documentId=6448C92179F9C21C8525897C003AFC80"
+                          target="_blank">RC PPTO Update</a></h4>
+                      <p>News and press resources.</p>
+                    </div>
+                  </div>
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-15.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <span class="info-badge">We’re hiring!</span>
+                      <h4>Careers</h4>
+                      <p>Join our team!</p>
+                    </div>
+                  </div> -->
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-16.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Legal</h4>
+                      <p>All the boring stuff.</p>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- FOIA -->
+          <li class="nav_list nav_list_menu">
+            <a href="#" class="nav_link">
+              <span>FOIA</span>
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </a>
+            <div class="dropdown">
+              <div class="dropdown-inner">
+
+
+                <div class="dropdown-item">
+                  <h3 class="item-heading">Open Government</h3>
+
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-1.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="https://www.jagcnet.army.mil/ACMPRS" target="_blank">Army Court-Martial </a></h4>
+                      <p>Public Record System</p>
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-1.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="#" target="_blank">FOIA Contact Information </a></h4>
+                      <!-- <p>Public Record System</p> -->
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-2.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="https://www.jagcnet.army.mil/Bankruptcy" target="_blank">Bankruptcy Listings</a></h4>
+                      <!-- <p>Surface hidden trends.</p> -->
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-3.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a
+                          href="https://www.jagcnet.army.mil/Sites/JAGC.nsf/homeContent.xsp?open&documentId=81636D4A779CAD71852588D3004C6990"
+                          target="_blank">Army Settlements</a></h4>
+                      <!-- <p>Learn about your users</p> -->
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-4.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <!-- <span class="info-badge">New</span> -->
+                      <h4><a href="https://www.jagcnet.army.mil/ACCALibrary/cases/opinions/OC" target="_blank">ACCA
+                          Opinions</a></h4>
+                      <!-- <p>Measure B2B account health.</p> -->
+                    </div>
+                  </div>
+                </div>
+
+                <!-- <div class="dropdown-item"> -->
+                <!-- <h3 class="item-heading">FOIA</h3> -->
+                <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-5.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="#">FOIA Contact Information</a></h4>
+                      <p>Analyze conversion rates.</p>
+                    </div>
+                  </div> -->
+                <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-6.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Engage</h4>
+                      <p>Measure active usage.</p>
+                    </div>
+                  </div> -->
+                <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-7.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Retain</h4>
+                      <p>Find retention drivers.</p>
+                    </div>
+                  </div> -->
+                <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-8.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Grow</h4>
+                      <p>Grow your user base faster.</p>
+                    </div>
+                  </div> -->
+                <!-- </div> -->
+
+                <!-- <div class="dropdown-item">
+                  <h3 class="item-heading">Resources</h3>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-9.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Blog</h4>
+                      <p>The latest industry news.</p>
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-10.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Customer stories</h4>
+                      <p>Learn how our customers.</p>
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-11.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Video tutorials</h4>
+                      <p>New features and techniques.</p>
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-12.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Documentation</h4>
+                      <p>All the boring stuff.</p>
+                    </div>
+                  </div>
+                </div> -->
+
+                <!-- <div class="dropdown-item">
+                  <h3 class="item-heading">Company</h3>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-13.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>About us</h4>
+                      <p>Learn about our story.</p>
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-14.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Press</h4>
+                      <p>News and press resources.</p>
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-15.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <span class="info-badge">We’re hiring!</span>
+                      <h4>Careers</h4>
+                      <p>Join our team!</p>
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-16.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Legal</h4>
+                      <p>All the boring stuff.</p>
+                    </div>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+          </li>
+          <!-- Access -->
+          <li class="nav_list nav_list_menu">
+            <a href="#" class="nav_link">
+              <span>Access</span>
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </a>
+            <div class="dropdown">
+              <div class="dropdown-inner">
+
+
+                <div class="dropdown-item">
+                  <h3 class="item-heading">Information</h3>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-1.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="#" target="_blank">Request an Account</a></h4>
+                      <!-- <p>Request an Account</p> -->
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-2.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="#" target="_blank">FOIA</a></h4>
+                      <!-- <p>Surface hidden trends.</p> -->
+                    </div>
+                  </div>
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-3.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Group analytics</h4>
+                      <p>Learn about your users</p>
+                    </div>
+                  </div> -->
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-4.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <span class="info-badge">New</span>
+                      <h4>Interactive reports</h4>
+                      <p>Measure B2B account health.</p>
+                    </div>
+                  </div> -->
+                </div>
+
+                <!-- <div class="dropdown-item">
+                  <h3 class="item-heading">Use cases</h3>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-5.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Convert</h4>
+                      <p>Analyze conversion rates.</p>
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-6.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Engage</h4>
+                      <p>Measure active usage.</p>
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-7.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Retain</h4>
+                      <p>Find retention drivers.</p>
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-8.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Grow</h4>
+                      <p>Grow your user base faster.</p>
+                    </div>
+                  </div>
+                </div> -->
+
+                <!-- <div class="dropdown-item">
+                  <h3 class="item-heading">Resources</h3>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-9.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Blog</h4>
+                      <p>The latest industry news.</p>
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-10.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Customer stories</h4>
+                      <p>Learn how our customers.</p>
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-11.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Video tutorials</h4>
+                      <p>New features and techniques.</p>
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-12.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Documentation</h4>
+                      <p>All the boring stuff.</p>
+                    </div>
+                  </div>
+                </div> -->
+
+                <!-- <div class="dropdown-item">
+                  <h3 class="item-heading">Company</h3>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-13.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>About us</h4>
+                      <p>Learn about our story.</p>
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-14.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Press</h4>
+                      <p>News and press resources.</p>
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-15.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <span class="info-badge">We’re hiring!</span>
+                      <h4>Careers</h4>
+                      <p>Join our team!</p>
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-16.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Legal</h4>
+                      <p>All the boring stuff.</p>
+                    </div>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+          </li>
+          <!-- Wellness Resources -->
+          <li class="nav_list nav_list_menu">
+            <a href="#" class="nav_link">
+              <span>Wellness</span>
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </a>
+            <div class="dropdown">
+              <div class="dropdown-inner">
+
+
+                <div class="dropdown-item">
+                  <!-- <h3 class="item-heading">Products</h3> -->
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-1.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="#" target="_blank">OCONUS Military Family </a></h4>
+                      <p>Life Counseling (MFLC) POCs</p>
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-2.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="https://www.armyresilience.army.mil/ard/R2/R2-Performance-center.html"
+                          target="_blank">Army Ready and Resilient </a></h4>
+                      <p>(R2) Performance Centers</p>
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-3.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="https://www.hprc-online.org/" target="_blank">Human Performance </a></h4>
+                      <p>Resources (by CHAMP)</p>
+                    </div>
+                  </div>
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-4.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <span class="info-badge">New</span>
+                      <h4>Interactive reports</h4>
+                      <p>Measure B2B account health.</p>
+                    </div>
+                  </div> -->
+                </div>
+
+                <div class="dropdown-item">
+                  <!-- <h3 class="item-heading">Use cases</h3> -->
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-5.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="https://www.militaryonesource.mil/health-wellness/" target="_blank">Health &
+                          Wellness</a> </h4>
+                      <p>(Military OneSource)</p>
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-6.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="https://www.armyresilience.army.mil/suicide-prevention/index.html"
+                          target="_blank">Army Suicide </a></h4>
+                      <p>Prevention Program</p>
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-7.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a
+                          href="https://www.americanbar.org/groups/lawyer_assistance/resources/covid-19--mental-health-resources/"
+                          target="_blank">ABA Mental </a></h4>
+                      <p>Health Resources</p>
+                    </div>
+                  </div>
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-8.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Grow</h4>
+                      <p>Grow your user base faster.</p>
+                    </div>
+                  </div> -->
+                </div>
+
+                <div class="dropdown-item">
+                  <!-- <h3 class="item-heading">Resources</h3> -->
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-9.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="https://www.armyresilience.army.mil/index.html" target="_blank">Army Resilience
+                          Directorate</a></h4>
+                      <!-- <p>The latest industry news.</p> -->
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-10.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a
+                          href="https://www.militaryonesource.mil/resources/mobile-apps/de-stress-and-relax-with-chill-drills-by-military-onesource/"
+                          target="_blank">Stress and Relaxation Drills</a></h4>
+                      <!-- <p>Learn how our customers.</p> -->
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-11.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="https://988lifeline.org/" target="_blank">Suicide & Crisis Hotline</a></h4>
+                      <!-- <p>New features and techniques.</p> -->
+                    </div>
+                  </div>
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-12.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Documentation</h4>
+                      <p>All the boring stuff.</p>
+                    </div>
+                  </div> -->
+                </div>
+
+                <div class="dropdown-item">
+                  <!-- <h3 class="item-heading">Company</h3> -->
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-13.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="https://www.militaryonesource.mil/resources/millife-guides/mental-health-support/"
+                          target="_blank">Mental Health Resources</a></h4>
+                      <!-- <p>Learn about our story.</p> -->
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-14.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="https://www.veteranscrisisline.net/get-help-now/military-crisis-line/"
+                          target="_blank">Military Crisis Line</a></h4>
+                      <!-- <p>News and press resources.</p> -->
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-15.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <!-- <span class="info-badge">We’re hiring!</span> -->
+                      <h4><a
+                          href="https://www.militaryonesource.mil/health-wellness/prevention-care/practicing-good-nutrition-boosts-personal-performance/"
+                          target="_blank">Nutrition Tips</a></h4>
+                      <!-- <p>Join our team!</p> -->
+                    </div>
+                  </div>
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-16.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4>Legal</h4>
+                      <p>All the boring stuff.</p>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- Additional Resources -->
+          <li class="nav_list nav_list_menu">
+            <a href="#" class="nav_link">
+              <span>Additional Resources</span>
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </a>
+            <div class="dropdown">
+              <div class="dropdown-inner">
+
+
+                <div class="dropdown-item">
+                  <!-- <h3 class="item-heading">Products</h3> -->
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-1.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="https://tjaglcs.army.mil/" target="_blank">Legal Center and School </a></h4>
+                      <!-- <p>Life Counseling (MFLC) POCs</p> -->
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-2.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="https://www.jagcnet.army.mil/sites/Advocacy.nsf"
+                          target="_blank">Advocacy Center</a></h4>
+                      <!-- <p>(R2) Performance Centers</p> -->
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-3.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="https://www.jagcnet.army.mil/ppto" target="_blank">Personnel</a></h4>
+                      <!-- <p>Resources (by CHAMP)</p> -->
+                    </div>
+                  </div>
+                  <!-- <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-4.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <span class="info-badge">New</span>
+                      <h4>Interactive reports</h4>
+                      <p>Measure B2B account health.</p>
+                    </div>
+                  </div> -->
+                </div>
+
+                <div class="dropdown-item">
+                  <!-- <h3 class="item-heading">Use cases</h3> -->
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-5.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="https://www.jagcnet.army.mil/Sites/CP56.nsf" target="_blank">CP-56</a> </h4>
+                      <!-- <p>(Military OneSource)</p> -->
+                    </div>
+                  </div>
+                  <div class="item-list">
+                    <div class="item-img">
+                      <img src="./assets/images/icon-6.svg" alt="Icon" />
+                    </div>
+                    <div class="item-list-info">
+                      <h4><a href="https://www.army.mil/ostc"
+                          target="_blank">OSTC </a></h4>
+                      <!-- <p>Prevention Program</p> -->
+                    </div>
+                  </div>
+                </div>
+
+               
+
+             
+              </div>
+            </div>
+          </li>
+          <!-- <li class="nav_list">
+            <a href="#" class="nav_link">
+              <span>Resources</span>
+            </a>
+          </li> -->
+          <!-- <li class="nav_list">
+            <a href="#" class="nav_link">
+              <span>Pricing</span>
+            </a>
+          </li> -->
+        </ul>
+        <div class="nav_action">
+          <!-- <a href="#" class="btn">Log in</a> -->
+          <!-- <a href="#" class="btn-primary">Sign up</a> -->
+          <div class="nav_toggle">
+            <ion-icon name="menu-outline"></ion-icon>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+
+
+  Old Header class
+*--------------------------------------------------------------
+# Global Header
+--------------------------------------------------------------*/
+/* .my-nav {
+  background: #221F20;
+   display: flex;
+   justify-content: space-between;   
+   
+} */
+/* .my-nav-secondary-wrapper .my-nav-secondary-item a {
+ 
+  color: #fff;
+  font-family: "proxima-nova";
+  font-size: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 1em;
+  
+} */
+
+/* .my-nav-secondary-wrapper .my-nav-secondary-item a:hover {
+  color: var(--nav-hover-color);
+ 
+  } */
+
+  /* .my-nav-secondary-wrapper .my-nav-secondary-item {  
+  display: inline-block;
+  padding: 17px;
+  cursor: pointer;
+   
+  } */
+
+
+/* header {
+   background: #221F20;
+   position: fixed;
+   width: 100%;
+   top: 0;
+   left: 0; 
+   z-index: 100;  
+} */
+
+/* header .container .navigation {
+  background: #221F20;
+  
+} */
+
+
+
+/* header .container .navigation ul li a {
+  color: #fff;
+ 
+} */
+
+/* .logo {
+  position: relative;
+} */
+
+/* .logo p {
+  position: absolute;
+  left: 55px;
+} */
+
+/* .my-nav .logo {
+  padding: 10px 20px;
+} */
+
+/* .nav_action .btn {
+  color: #fff;
+} */
+
+/* .container {
+    max-width: var(--container);
+    margin: 0 auto;
+    padding: 0 1rem;
+} */
+
+/* .navigation {
+    display: flex;    
+    align-items: center;
+    justify-content: space-between;
+    height: var(--nav-height);
+    position: relative;
+    background: var(--white);
+} */
+
+/* .nav_list {
+    display: inline-flex;
+    gap: 2rem;
+    align-items: center;
+    margin: 0 1.5rem;
+    font-size: 1.5rem;
+} */
+
+/* .nav_action {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+} */
+
+/* .nav_link,
+.btn {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-weight: 500;
+    color: var(--text-primary);
+} */
+
+/* .btn-primary {
+    display: inline-flex;
+    color: var(--white);
+    background: var(--primary);
+    font-weight: 500;
+    padding: 0.6rem 1.5rem;
+    border-radius: 1.5rem;
+} */
+
+/* .nav_toggle {
+    cursor: pointer;
+    display: none;
+} */
+
+/* .nav_toggle ion-icon {
+    font-size: 3.5rem;
+    color: var(--text-primary);
+} */
+
+/* .dropdown {
+    position: absolute;
+    top: var(--nav-height);
+    left: 0;
+    width: 100%;
+    background: var(--dropdown-bg);
+    box-shadow: 0rem 0.2rem 0.5rem var(--shadow);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    transition: all 0.5s ease-in;
+    z-index: 100;
+    background-color: #221F20;
+} */
+
+/* .dropdown-inner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1rem;
+    padding: 2rem;
+    
+} */
+
+/* .nav_list_menu:hover ion-icon {
+    transition: all 0.5s ease-in;
+    transform: rotate(180deg);
+  
+} */
+
+/* .nav_list_menu:hover .dropdown {
+    clip-path: polygon(0 0, 100% 0, 100% 102%, 0 102%);
+   
+} */
+
+.item-list {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 3rem 0;
+}
+
+/* .item-img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--secondary);
+   
+} */
+
+/* .item-list-info {
+    position: relative;
+    width: 100%;
+} */
+
+/* .dropdown-item h3 {
+ color: #fff;
+} */
+
+/* header .container .navigation ul li h4 a {
+     color: var(--accent-color)
+} */
+
+
+/* .item-list-info p {
+  color: var(--accent-color)
+} */
+
+/* .info-badge {
+    position: absolute;
+    right: 1rem;
+    top: 0;
+    background: var(--badge-bg);
+    padding: 0.1rem 0.5rem;
+    border-radius: 1rem;
+    color: var(--badge-text);
+} */
+
+/* .mobile-drop {
+  display: none;
+  color: #fff;
+  margin-left: 10px;
+} */
+
+
+
+/* @media (max-width: 500px) {
+  .my-nav {
+    flex-direction: column;
+  }
+  .my-nav-secondary-wrapper .my-nav-secondary-item {  
+  display: block;
+  padding: 17px;
+  cursor: pointer;
+  }
+} */
+
+/* @media (max-width: 768px) {
+  .my-nav {
+    flex-direction: column;
+  }
+  .my-nav-secondary-wrapper .my-nav-secondary-item {  
+  display: block;
+  padding: 17px;
+  cursor: pointer;
+  }
+
+  header {
+    position: relative;
+  }
+
+  body {
+    margin-top: 0;
+  }
+} */
+
+/* @media (max-width: 853px) {
+  .my-nav {
+    flex-direction: column;
+  }
+  .my-nav-secondary-wrapper .my-nav-secondary-item {  
+  display: block;
+  padding: 17px;
+  cursor: pointer;
+  }
+} */
+
+/* @media (max-width:730px) {
+  
+  .nav_toggle .md {
+    color: #fff;
+    
+  }
+
+    .nav_toggle {
+        display: block;
+    }
+    .nav_menu {
+        position: absolute;
+        top: var(--nav-height);
+        left: 0;
+        width: 100%;
+        background: var(--dropdown-bg);
+        display: none;
+    }
+    .nav_menu.active {
+        display: block;
+         z-index: 100;
+    }
+    .nav_list {
+        display: block;
+        margin: 2rem 0;
+        text-align: center;
+    }
+    .nav_link {
+        padding: 0 2rem;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .nav_link span {
+      color: #000;
+    }
+    .dropdown {
+        top: 0;
+        position: relative;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        box-shadow: none;
+        height: 0;
+        text-align: start;
+        transition: all 0.5s ease-in;
+      
+    }
+    .nav_list_menu:hover .dropdown {
+        height: 100%;
+        transition: all 0.5s ease-in;
+        
+    }
+
+    .mobile-drop {
+  display: block;
+  color: #fff;
+  margin-left: 10px;
+}
+} */
+
+/* @media (max-width:365px) {
+    .logo-img {
+        width: 10rem;
+    }
+    .btn,
+    .btn-primary {
+        padding: 0.4rem 1rem;
+    }
+} */
+
+/* .scrolled .header {
+  box-shadow: 0px 0 18px color-mix(in srgb, var(--default-color), transparent 85%);
+} */
+
+/* a.style-btn {
+  background-color: gray;
+  box-shadow: 0 5px 0 rgb(255, 196, 81);
+  color: white;
+  padding: 1em 1.5em;
+  position: relative;
+  text-decoration: none;
+} */

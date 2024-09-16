@@ -12,15 +12,15 @@
   /**
    * Apply .scrolled class to the body as the page is scrolled down
    */
-  function toggleScrolled() {
-    const selectBody = document.querySelector('body');
-    const selectHeader = document.querySelector('#header');
-    if (!selectHeader.classList.contains('scroll-up-sticky') && !selectHeader.classList.contains('sticky-top') && !selectHeader.classList.contains('fixed-top')) return;
-    window.scrollY > 100 ? selectBody.classList.add('scrolled') : selectBody.classList.remove('scrolled');
-  }
+  // function toggleScrolled() {
+  //   const selectBody = document.querySelector('body');
+  //   const selectHeader = document.querySelector('#header');
+  //   if (!selectHeader.classList.contains('scroll-up-sticky') && !selectHeader.classList.contains('sticky-top') && !selectHeader.classList.contains('fixed-top')) return;
+  //   window.scrollY > 100 ? selectBody.classList.add('scrolled') : selectBody.classList.remove('scrolled');
+  // }
 
-  document.addEventListener('scroll', toggleScrolled);
-  window.addEventListener('load', toggleScrolled);
+  // document.addEventListener('scroll', toggleScrolled);
+  // window.addEventListener('load', toggleScrolled);
 
   /**
    * Mobile nav toggle
@@ -378,12 +378,234 @@ let nav_toggle_icon = document.querySelector('.nav_toggle ion-icon');
 let nav_menu = document.querySelector('.nav_menu');
 
 
-nav_toggle.addEventListener("click", () => {
+// nav_toggle.addEventListener("click", () => {
   
-  nav_menu.classList.toggle('active');
-  nav_toggle_icon.setAttribute('name',
-    nav_menu.classList.contains('active') ? 'close-outline' : 'menu-outline'
-  );
-});
+//   nav_menu.classList.toggle('active');
+//   nav_toggle_icon.setAttribute('name',
+//     nav_menu.classList.contains('active') ? 'close-outline' : 'menu-outline'
+//   );
+// });
 
 // sticky navbar
+
+// new navbar navigation
+const searchButton = document.querySelector('nav .desktop-nav .link-search');
+
+
+const closeButton = document.querySelector('.search-container .link-close ');
+const desktopNav = document.querySelector('.desktop-nav');
+const searchContainer = document.querySelector('.search-container');
+
+const overlay = document.querySelector('.overlay');
+
+const tabSearch = document.querySelector('nav .desktop-nav .tab-search');
+const firstLink = document.querySelector('#first-link');
+const firstLinkClass = document.querySelector('.first-link')
+const firstCloseButton = document.querySelector('.search-container .firstLink-close ');
+
+const secondSearch = document.querySelector('nav .desktop-nav .second-search');
+const secondLink = document.querySelector('#second-link');
+const secondLinkClass = document.querySelector('.second-link')
+const secondCloseButton = document.querySelector('.search-container .secondLink-close ');
+
+const thirdSearch = document.querySelector('nav .desktop-nav .third-search');
+const thirdLink = document.querySelector('#third-link');
+const thirdLinkClass = document.querySelector('.third-link')
+const thirdCloseButton = document.querySelector('.search-container .thirdLink-close ');
+
+const fourthSearch = document.querySelector('nav .desktop-nav .fourth-search');
+const fourthLink = document.querySelector('#fourth-link');
+const fourthLinkClass = document.querySelector('.fourth-link')
+const fourthCloseButton = document.querySelector('.search-container .fourthLink-close ');
+
+const fiveSearch = document.querySelector('nav .desktop-nav .five-search');
+const fiveLink = document.querySelector('#five-link');
+const fiveLinkClass = document.querySelector('.five-link')
+const fiveCloseButton = document.querySelector('.search-container .fiveLink-close ');
+
+const sixSearch = document.querySelector('nav .desktop-nav .six-search');
+const sixLink = document.querySelector('#six-link');
+const sixLinkClass = document.querySelector('.six-link')
+const sixCloseButton = document.querySelector('.search-container .sixLink-close ');
+
+const sevenSearch = document.querySelector('nav .desktop-nav .seven-search');
+const sevenLink = document.querySelector('#seven-link');
+const sevenLinkClass = document.querySelector('.seven-link')
+const sevenCloseButton = document.querySelector('.search-container .sevenLink-close ');
+
+const eightSearch = document.querySelector('nav .desktop-nav .eight-search');
+const eightLink = document.querySelector('#eight-link');
+const eightLinkClass = document.querySelector('.eight-link')
+const eightCloseButton = document.querySelector('.search-container .eightLink-close ');
+
+
+
+
+
+
+searchButton.addEventListener('click', () => {
+    desktopNav.classList.add('hide');
+    searchContainer.classList.remove('hide');
+    overlay.classList.add('show');
+});
+
+tabSearch.addEventListener('click', () => {
+    desktopNav.classList.add('hide');
+    firstLink.classList.remove('hide');
+    overlay.classList.add('show');
+});
+
+secondSearch.addEventListener('click', () => {
+    desktopNav.classList.add('hide');
+    secondLink.classList.remove('hide');
+    overlay.classList.add('show');
+});
+
+thirdSearch.addEventListener('click', () => {
+    desktopNav.classList.add('hide');
+    thirdLink.classList.remove('hide');
+    overlay.classList.add('show');
+});
+
+fourthSearch.addEventListener('click', () => {
+    desktopNav.classList.add('hide');
+    fourthLink.classList.remove('hide');
+    overlay.classList.add('show');
+});
+
+fiveSearch.addEventListener('click', () => {
+    desktopNav.classList.add('hide');
+    fiveLink.classList.remove('hide');
+    overlay.classList.add('show');
+});
+
+sixSearch.addEventListener('click', () => {
+    desktopNav.classList.add('hide');
+    sixLink.classList.remove('hide');
+    overlay.classList.add('show');
+});
+
+sevenSearch.addEventListener('click', () => {
+    desktopNav.classList.add('hide');
+    sevenLink.classList.remove('hide');
+    overlay.classList.add('show');
+});
+
+eightSearch.addEventListener('click', () => {
+    desktopNav.classList.add('hide');
+    eightLink.classList.remove('hide');
+    overlay.classList.add('show');
+});
+
+
+
+closeButton.addEventListener('click', () => {
+    desktopNav.classList.remove('hide');
+    searchContainer.classList.add('hide');
+    overlay.classList.remove('show');
+});
+
+firstCloseButton.addEventListener('click', () => {
+    desktopNav.classList.remove('hide');
+    firstLinkClass.classList.add('hide');
+    overlay.classList.remove('show');
+});
+
+secondCloseButton.addEventListener('click', () => {
+    desktopNav.classList.remove('hide');
+    secondLinkClass.classList.add('hide');
+    overlay.classList.remove('show');
+});
+thirdCloseButton.addEventListener('click', () => {
+    desktopNav.classList.remove('hide');
+    thirdLinkClass.classList.add('hide');
+    overlay.classList.remove('show');
+});
+
+fourthCloseButton.addEventListener('click', () => {
+    desktopNav.classList.remove('hide');
+    fourthLinkClass.classList.add('hide');
+    overlay.classList.remove('show');
+});
+
+fiveCloseButton.addEventListener('click', () => {
+    desktopNav.classList.remove('hide');
+    fiveLinkClass.classList.add('hide');
+    overlay.classList.remove('show');
+});
+
+sixCloseButton.addEventListener('click', () => {
+    desktopNav.classList.remove('hide');
+    sixLinkClass.classList.add('hide');
+    overlay.classList.remove('show');
+});
+
+sevenCloseButton.addEventListener('click', () => {
+    desktopNav.classList.remove('hide');
+    sevenLinkClass.classList.add('hide');
+    overlay.classList.remove('show');
+});
+
+eightCloseButton.addEventListener('click', () => {
+    desktopNav.classList.remove('hide');
+    eightLinkClass.classList.add('hide');
+    overlay.classList.remove('show');
+});
+
+
+
+overlay.addEventListener('click', () => {
+    desktopNav.classList.remove('hide');
+    searchContainer.classList.add('hide');
+    firstLinkClass.classList.add('hide');
+    secondLinkClass.classList.add('hide');
+    thirdLinkClass.classList.add('hide');
+    fourthLinkClass.classList.add('hide');
+    fiveLinkClass.classList.add('hide'); 
+    sixLinkClass.classList.add('hide');
+    sevenLinkClass.classList.add('hide');
+    eightLinkClass.classList.add('hide');
+    overlay.classList.remove('show');
+});
+
+
+
+
+// Mobile Version
+const menuIconContainer = document.querySelector("nav .menu-icon-container");
+
+const navContainer = document.querySelector(".nav-container");
+
+menuIconContainer.addEventListener("click", () => {
+    navContainer.classList.toggle("active")
+});
+
+const searchBar = document.querySelector('.mobile-search-container .search-bar');
+
+const nav = document.querySelector(".nav-container nav");
+
+const searchInput = document.querySelector(".mobile-search-container input");
+
+const cancelBtn = document.querySelector(".mobile-search-container .cancel-btn");
+
+searchInput.addEventListener("click", () => {
+    searchBar.classList.add("active");
+    nav.classList.add("move-up");
+    desktopNav.classList.add("move-down");
+});
+
+searchInput.addEventListener("click", () => {
+    searchBar.classList.add('active');
+    nav.classList.add('move-up');
+    desktopNav.classList.add('move-down');
+});
+
+cancelBtn.addEventListener("click", () => {
+    searchBar.classList.remove('active');
+    nav.classList.remove('move-up');
+    desktopNav.classList.remove('move-down');
+});
+
+
+
+
