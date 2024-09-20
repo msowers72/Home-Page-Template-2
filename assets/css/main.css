@@ -466,6 +466,8 @@ nav .desktop-nav li a:hover {
     width: 100%;
     margin: 0 auto;
 }
+
+
 /* stoped here */
 
 /* Overlay */
@@ -720,7 +722,8 @@ desktop-nav li:nth-of-type(1),
 
 /* Hidden Itesm */
 .mobile-nav,
-.mobile-search-container {
+.mobile-search-container,
+.firstmobile-search-container {
     display: none;
 }
 
@@ -888,7 +891,25 @@ desktop-nav li:nth-of-type(1),
         
     }
 
+     .firstmobile-search-container input {
+        display: none;
+    }
+
+
     .mobile-search-container {
+        position: relative;
+        padding: 0 16px;
+        margin-top: -30px;
+        border-bottom: 1px solid #616161;
+        display: flex;
+        padding-bottom: 16px;
+        align-items: center;
+        transform: rotateX(90deg);
+        opacity: 0;
+        transition: all 600ms ease;
+    }
+
+     .firstmobile-search-container {
         position: relative;
         padding: 0 16px;
         margin-top: -30px;
@@ -907,11 +928,32 @@ desktop-nav li:nth-of-type(1),
         opacity: 1;
     }
 
+     .nav-container .mobile-search-container.hide {
+        transform: rotateX(0deg);
+        margin-top: -60px;
+        opacity: 0;
+    }
+
+    .nav-container.active .firstmobile-search-container.hide {
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .nav-container.active .firstmobile-search-container {
+        transform: rotateX(0deg);
+        margin-top: 10px;
+        opacity: 1;
+    }
+
     .mobile-search-container .link-search {
         position: absolute;
         left: 24px;
         opacity: .5;
         background-size: 15px;
+    }
+
+      .firstmobile-search-container .link-search {
+        display: none;
     }
 
     /* Nav Move up */
@@ -931,11 +973,35 @@ desktop-nav li:nth-of-type(1),
         overflow: hidden;
         transition: all 400ms ease;
     }
+
+     .firstmobile-search-container .cancel-btn
+     {
+        color: #2997ff;
+        font-size: 17px;
+        /* padding: 0 16px; */
+        /* background: red; */
+        font-weight: 400;
+        cursor: pointer;
+        width: 0px;
+        overflow: hidden;
+        transition: all 400ms ease;
+    }
+
     .mobile-search-container .search-bar.active + .cancel-btn {
         padding: 0 16px;
         width: 74px;
     }
+
+     .firstmobile-search-container .search-bar.active + .cancel-btn {
+        padding: 0 16px;
+        width: 74px;
+    }
+
     .mobile-search-container .search-bar {
+        flex: 1;
+    }
+
+    .firstmobile-search-container .search-bar {
         flex: 1;
     }
     /* deskto nav move down */
@@ -955,6 +1021,15 @@ desktop-nav li:nth-of-type(1),
         transition-delay: 40ms;
         
     }
+
+    .firstmobile-search-container .search-bar.active ~ .quick-links {
+        top:  80px;
+        opacity: 1;
+        pointer-events: auto;
+        transition-delay: 40ms;
+        
+    }
+
     .mobile-search-container .quick-links {
        position: absolute;
        /* top: 80px; */
@@ -966,16 +1041,53 @@ desktop-nav li:nth-of-type(1),
        top: 10px;
        transition: all 400ms ease;
     }
+
+     .firstmobile-search-container  .quick-links {
+       position: absolute;
+       /* top: 80px; */
+       left: 0;
+       right: 0;
+       padding: 0 32px;
+       opacity: 0;
+       pointer-events: none;
+       top: 10px;
+       transition: all 400ms ease;
+    }
+
     .mobile-search-container .quick-links ul {
         list-style: none;
     }
+
+.firstmobile-search-container .quick-links ul {
+        list-style: none;
+    }
+
     .mobile-search-container .quick-links  h2 {
         color: #86868b;
         font-size: 12px;
         text-transform: uppercase;
         font-weight: 400;
     }
+
+    .firstmobile-search-container .quick-links  h2 {
+        color: #86868b;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+
     .mobile-search-container .quick-links ul li a {
+       padding: 16px 0;
+       display: inline-block;
+       text-decoration: none;
+       color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        border-bottom: 1px solid #616161;
+        width: 100%
+    }
+
+     .firstmobile-search-container .quick-links ul li a {
        padding: 16px 0;
        display: inline-block;
        text-decoration: none;
@@ -989,6 +1101,16 @@ desktop-nav li:nth-of-type(1),
     .mobile-search-container .quick-links ul li a:hover {
        color: #2997ff 
     }
+
+     .firstmobile-search-container .quick-links ul li a:hover {
+       color: #2997ff 
+    }
+    
+    /* .search-container.first-link {
+      display: none;
+    } */
+    
+  
 }
 
 /* Nav Animation */

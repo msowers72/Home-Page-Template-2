@@ -450,9 +450,21 @@ searchButton.addEventListener('click', () => {
 });
 
 tabSearch.addEventListener('click', () => {
-    desktopNav.classList.add('hide');
-    firstLink.classList.remove('hide');
-    overlay.classList.add('show');
+    if(x.matches) {
+     console.log("You are there")
+    firstsearchBar.classList.add("active");
+    nav.classList.add("move-up");
+    desktopNav.classList.add("move-down");
+    firstmobileSearch.classList.remove('hide')
+    mobileSearchContainer.classList.add('hide')
+    } else {
+        console.log(("i worked"))
+        desktopNav.classList.add('hide');
+        firstLink.classList.remove('hide');
+        overlay.classList.add('show');
+    }
+
+   
 });
 
 secondSearch.addEventListener('click', () => {
@@ -569,6 +581,8 @@ overlay.addEventListener('click', () => {
 });
 
 
+// code for Match-media
+var x = window.matchMedia("(max-width: 768px)")
 
 
 // Mobile Version
@@ -582,11 +596,26 @@ menuIconContainer.addEventListener("click", () => {
 
 const searchBar = document.querySelector('.mobile-search-container .search-bar');
 
+const mobileSearchContainer = document.querySelector(".nav-container .mobile-search-container")
+
+const firstsearchBar = document.querySelector('.firstmobile-search-container .search-bar')
+
+
 const nav = document.querySelector(".nav-container nav");
 
 const searchInput = document.querySelector(".mobile-search-container input");
 
+const firstsearchInput = document.querySelector('.firstmobile-search-container input')
+
+
 const cancelBtn = document.querySelector(".mobile-search-container .cancel-btn");
+
+const firstCancelBtn = document.querySelector(".firstmobile-search-container .cancel-btn");
+
+const firstcancelBtn = document.querySelector(".firstmobile-search-container .cancel-btn")
+
+const firstmobileSearch = document.querySelector('.firstmobile-search-container')
+
 
 searchInput.addEventListener("click", () => {
     searchBar.classList.add("active");
@@ -594,18 +623,21 @@ searchInput.addEventListener("click", () => {
     desktopNav.classList.add("move-down");
 });
 
-searchInput.addEventListener("click", () => {
-    searchBar.classList.add('active');
-    nav.classList.add('move-up');
-    desktopNav.classList.add('move-down');
-});
+
 
 cancelBtn.addEventListener("click", () => {
     searchBar.classList.remove('active');
     nav.classList.remove('move-up');
     desktopNav.classList.remove('move-down');
+    desktopNav.classList.remove('hide');
 });
 
-
-
-
+firstCancelBtn.addEventListener("click", () => {
+    mobileSearchContainer.classList.remove('hide')
+    firstsearchBar.classList.remove("active");
+    firstmobileSearch.classList.add('hide')
+    nav.classList.remove('move-up');
+    desktopNav.classList.remove('move-down');
+    desktopNav.classList.remove('hide');
+    
+});
