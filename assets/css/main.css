@@ -729,7 +729,8 @@ desktop-nav li:nth-of-type(1),
 .fourthmobile-search-container,
 .fivemobile-search-container,
 .sixmobile-search-container,
-.sevenmobile-search-container
+.sevenmobile-search-container,
+.eightmobile-search-container
  {
     display: none;
 }
@@ -921,6 +922,9 @@ desktop-nav li:nth-of-type(1),
      .sevenmobile-search-container input {
         display: none;
     }
+     .eightmobile-search-container input {
+        display: none;
+    }
 
 
     .mobile-search-container {
@@ -1027,6 +1031,19 @@ desktop-nav li:nth-of-type(1),
         transition: all 600ms ease;
     }
 
+     .eightmobile-search-container {
+        position: relative;
+        padding: 0 16px;
+        margin-top: -30px;
+        border-bottom: 1px solid #616161;
+        display: flex;
+        padding-bottom: 16px;
+        align-items: center;
+        transform: rotateX(90deg);
+        opacity: 0;
+        transition: all 600ms ease;
+    }
+
     .nav-container.active .mobile-search-container {
         transform: rotateX(0deg);
         margin-top: 10px;
@@ -1072,6 +1089,11 @@ desktop-nav li:nth-of-type(1),
         pointer-events: none;
     }
 
+    .nav-container.active .eightmobile-search-container.hide {
+        opacity: 0;
+        pointer-events: none;
+    }
+
     .nav-container.active .firstmobile-search-container {
         transform: rotateX(0deg);
         margin-top: 10px;
@@ -1086,13 +1108,13 @@ desktop-nav li:nth-of-type(1),
 
     .nav-container.active .thirdmobile-search-container {
         transform: rotateX(0deg);
-        margin-top: -35px;
+        margin-top: -45px;
         opacity: 1;
     }
 
     .nav-container.active .fourthmobile-search-container {
         transform: rotateX(0deg);
-        margin-top: -35px;
+        margin-top: -58px;
         opacity: 1;
     }
 
@@ -1109,6 +1131,12 @@ desktop-nav li:nth-of-type(1),
     }
 
     .nav-container.active .sevenmobile-search-container {
+        transform: rotateX(0deg);
+        margin-top: -35px;
+        opacity: 1;
+    }
+
+    .nav-container.active .eightmobile-search-container {
         transform: rotateX(0deg);
         margin-top: -35px;
         opacity: 1;
@@ -1146,6 +1174,10 @@ desktop-nav li:nth-of-type(1),
     }
 
       .sevenmobile-search-container .link-search {
+        display: none;
+    }
+
+      .eightmobile-search-container .link-search {
         display: none;
     }
 
@@ -1258,6 +1290,19 @@ desktop-nav li:nth-of-type(1),
         transition: all 400ms ease;
     }
 
+     .eightmobile-search-container .cancel-btn
+     {
+        color: #2997ff;
+        font-size: 17px;
+        /* padding: 0 16px; */
+        /* background: red; */
+        font-weight: 400;
+        cursor: pointer;
+        width: 0px;
+        overflow: hidden;
+        transition: all 400ms ease;
+    }
+
     .mobile-search-container .search-bar.active + .cancel-btn {
         padding: 0 16px;
         width: 74px;
@@ -1298,6 +1343,11 @@ desktop-nav li:nth-of-type(1),
         width: 74px;
     }
 
+     .eightmobile-search-container .search-bar.active + .cancel-btn {
+        padding: 0 16px;
+        width: 74px;
+    }
+
     .mobile-search-container .search-bar {
         flex: 1;
     }
@@ -1327,6 +1377,10 @@ desktop-nav li:nth-of-type(1),
     }
 
     .sevenmobile-search-container .search-bar {
+        flex: 1;
+    }
+
+    .eightmobile-search-container .search-bar {
         flex: 1;
     }
     /* deskto nav move down */
@@ -1396,6 +1450,13 @@ desktop-nav li:nth-of-type(1),
     }
 
     .sevenmobile-search-container .search-bar.active ~ .quick-links {
+        top:  80px;
+        opacity: 1;
+        pointer-events: auto;
+        transition-delay: 40ms;
+        
+    }
+    .eightmobile-search-container .search-bar.active ~ .quick-links {
         top:  80px;
         opacity: 1;
         pointer-events: auto;
@@ -1499,6 +1560,18 @@ desktop-nav li:nth-of-type(1),
        transition: all 400ms ease;
     }
 
+     .eightmobile-search-container  .quick-links {
+       position: absolute;
+       /* top: 80px; */
+       left: 0;
+       right: 0;
+       padding: 0 32px;
+       opacity: 0;
+       pointer-events: none;
+       top: 10px;
+       transition: all 400ms ease;
+    }
+
     .mobile-search-container .quick-links ul {
         list-style: none;
     }
@@ -1528,6 +1601,10 @@ desktop-nav li:nth-of-type(1),
     }
 
 .sevenmobile-search-container .quick-links ul {
+        list-style: none;
+    }
+
+.eightmobile-search-container .quick-links ul {
         list-style: none;
     }
 
@@ -1581,6 +1658,13 @@ desktop-nav li:nth-of-type(1),
     }
 
     .sevenmobile-search-container .quick-links  h2 {
+        color: #86868b;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+
+    .eightmobile-search-container .quick-links  h2 {
         color: #86868b;
         font-size: 12px;
         text-transform: uppercase;
@@ -1675,6 +1759,17 @@ desktop-nav li:nth-of-type(1),
         width: 100%
     }
 
+     .eightmobile-search-container .quick-links ul li a {
+       padding: 16px 0;
+       display: inline-block;
+       text-decoration: none;
+       color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        border-bottom: 1px solid #616161;
+        width: 100%
+    }
+
     .mobile-search-container .quick-links ul li a:hover {
        color: #2997ff 
     }
@@ -1704,6 +1799,9 @@ desktop-nav li:nth-of-type(1),
     }
 
      .sevenmobile-search-container .quick-links ul li a:hover {
+       color: #2997ff 
+    }
+     .eightmobile-search-container .quick-links ul li a:hover {
        color: #2997ff 
     }
     
