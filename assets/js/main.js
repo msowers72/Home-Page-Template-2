@@ -451,14 +451,14 @@ searchButton.addEventListener('click', () => {
 
 tabSearch.addEventListener('click', () => {
     if(x.matches) {
-     console.log("You are there")
+    console.log("I was clicked")
     firstsearchBar.classList.add("active");
     nav.classList.add("move-up");
     desktopNav.classList.add("move-down");
     firstmobileSearch.classList.remove('hide')
     mobileSearchContainer.classList.add('hide')
     } else {
-        console.log(("i worked"))
+        
         desktopNav.classList.add('hide');
         firstLink.classList.remove('hide');
         overlay.classList.add('show');
@@ -468,39 +468,88 @@ tabSearch.addEventListener('click', () => {
 });
 
 secondSearch.addEventListener('click', () => {
+  if (x.matches) {
+    secondsearchBar.classList.add("active");
+    nav.classList.add("move-up");
+    desktopNav.classList.add("move-down");
+    secondmobileSearch.classList.remove('hide')
+    mobileSearchContainer.classList.add('hide')
+  } else {
     desktopNav.classList.add('hide');
     secondLink.classList.remove('hide');
     overlay.classList.add('show');
+    }
 });
 
 thirdSearch.addEventListener('click', () => {
-    desktopNav.classList.add('hide');
+  if (x.matches) {
+    thirdsearchBar.classList.add("active");
+    nav.classList.add("move-up");
+    desktopNav.classList.add("move-down");
+    thirdmobileSearch.classList.remove('hide')
+    mobileSearchContainer.classList.add('hide')
+     
+  } else {
+     desktopNav.classList.add('hide');
     thirdLink.classList.remove('hide');
     overlay.classList.add('show');
+   }
 });
 
 fourthSearch.addEventListener('click', () => {
-    desktopNav.classList.add('hide');
+  if (x.matches) {
+    fourthsearchBar.classList.add("active");
+    nav.classList.add("move-up");
+    desktopNav.classList.add("move-down");
+    fourthmobileSearch.classList.remove('hide')
+    mobileSearchContainer.classList.add('hide')
+  } else {
+     desktopNav.classList.add('hide');
     fourthLink.classList.remove('hide');
     overlay.classList.add('show');
+   }
 });
 
 fiveSearch.addEventListener('click', () => {
+  if (x.matches) {
+    fivesearchBar.classList.add("active");
+    nav.classList.add("move-up");
+    desktopNav.classList.add("move-down");
+    fivemobileSearch.classList.remove('hide')
+    mobileSearchContainer.classList.add('hide')
+  } else {
     desktopNav.classList.add('hide');
     fiveLink.classList.remove('hide');
     overlay.classList.add('show');
+    }
 });
 
 sixSearch.addEventListener('click', () => {
-    desktopNav.classList.add('hide');
+  if (x.matches) {
+    sixsearchBar.classList.add("active");
+    nav.classList.add("move-up");
+    desktopNav.classList.add("move-down");
+    sixmobileSearch.classList.remove('hide')
+    mobileSearchContainer.classList.add('hide')
+  } else {
+     desktopNav.classList.add('hide');
     sixLink.classList.remove('hide');
     overlay.classList.add('show');
+   }
 });
 
 sevenSearch.addEventListener('click', () => {
+  if (x.matches) {
+    sevensearchBar.classList.add("active");
+    nav.classList.add("move-up");
+    desktopNav.classList.add("move-down");
+    sevenmobileSearch.classList.remove('hide')
+    mobileSearchContainer.classList.add('hide')
+  } else {
     desktopNav.classList.add('hide');
     sevenLink.classList.remove('hide');
     overlay.classList.add('show');
+    }
 });
 
 eightSearch.addEventListener('click', () => {
@@ -594,11 +643,18 @@ menuIconContainer.addEventListener("click", () => {
     navContainer.classList.toggle("active")
 });
 
+// Elements from the DOM
 const searchBar = document.querySelector('.mobile-search-container .search-bar');
 
 const mobileSearchContainer = document.querySelector(".nav-container .mobile-search-container")
 
 const firstsearchBar = document.querySelector('.firstmobile-search-container .search-bar')
+const secondsearchBar = document.querySelector('.secondmobile-search-container .search-bar')
+const thirdsearchBar = document.querySelector('.thirdmobile-search-container .search-bar')
+const fourthsearchBar = document.querySelector('.fourthmobile-search-container .search-bar')
+const fivesearchBar = document.querySelector('.fivemobile-search-container .search-bar')
+const sixsearchBar = document.querySelector('.sixmobile-search-container .search-bar')
+const sevensearchBar = document.querySelector('.sevenmobile-search-container .search-bar')
 
 
 const nav = document.querySelector(".nav-container nav");
@@ -606,15 +662,33 @@ const nav = document.querySelector(".nav-container nav");
 const searchInput = document.querySelector(".mobile-search-container input");
 
 const firstsearchInput = document.querySelector('.firstmobile-search-container input')
+const secondsearchInput = document.querySelector('.secondmobile-search-container input')
+const thirdsearchInput = document.querySelector('.thirdmobile-search-container input')
+const fourthsearchInput = document.querySelector('.fourthmobile-search-container input')
+const fivesearchInput = document.querySelector('.fivemobile-search-container input')
+const sixsearchInput = document.querySelector('.sixmobile-search-container input')
+const sevensearchInput = document.querySelector('.sevenmobile-search-container input')
 
 
 const cancelBtn = document.querySelector(".mobile-search-container .cancel-btn");
 
 const firstCancelBtn = document.querySelector(".firstmobile-search-container .cancel-btn");
+const secondCancelBtn = document.querySelector(".secondmobile-search-container .cancel-btn");
+const thirdCancelBtn = document.querySelector(".thirdmobile-search-container .cancel-btn");
+const fourthCancelBtn = document.querySelector(".fourthmobile-search-container .cancel-btn");
+const fiveCancelBtn = document.querySelector(".fivemobile-search-container .cancel-btn");
+const sixCancelBtn = document.querySelector(".sixmobile-search-container .cancel-btn");
+const sevenCancelBtn = document.querySelector(".sevenmobile-search-container .cancel-btn");
 
-const firstcancelBtn = document.querySelector(".firstmobile-search-container .cancel-btn")
+
 
 const firstmobileSearch = document.querySelector('.firstmobile-search-container')
+const secondmobileSearch = document.querySelector('.secondmobile-search-container')
+const thirdmobileSearch = document.querySelector('.thirdmobile-search-container')
+const fourthmobileSearch = document.querySelector('.fourthmobile-search-container')
+const fivemobileSearch = document.querySelector('.fivemobile-search-container')
+const sixmobileSearch = document.querySelector('.sixmobile-search-container')
+const sevenmobileSearch = document.querySelector('.sevenmobile-search-container')
 
 
 searchInput.addEventListener("click", () => {
@@ -636,6 +710,66 @@ firstCancelBtn.addEventListener("click", () => {
     mobileSearchContainer.classList.remove('hide')
     firstsearchBar.classList.remove("active");
     firstmobileSearch.classList.add('hide')
+    nav.classList.remove('move-up');
+    desktopNav.classList.remove('move-down');
+    desktopNav.classList.remove('hide');
+    
+});
+
+secondCancelBtn.addEventListener("click", () => {
+    mobileSearchContainer.classList.remove('hide')
+    secondsearchBar.classList.remove("active");
+    secondmobileSearch.classList.add('hide')
+    nav.classList.remove('move-up');
+    desktopNav.classList.remove('move-down');
+    desktopNav.classList.remove('hide');
+    
+});
+
+thirdCancelBtn.addEventListener("click", () => {
+    mobileSearchContainer.classList.remove('hide')
+    thirdsearchBar.classList.remove("active");
+    thirdmobileSearch.classList.add('hide')
+    nav.classList.remove('move-up');
+    desktopNav.classList.remove('move-down');
+    desktopNav.classList.remove('hide');
+    
+});
+
+fourthCancelBtn.addEventListener("click", () => {
+    mobileSearchContainer.classList.remove('hide')
+    fourthsearchBar.classList.remove("active");
+    fourthmobileSearch.classList.add('hide')
+    nav.classList.remove('move-up');
+    desktopNav.classList.remove('move-down');
+    desktopNav.classList.remove('hide');
+    
+});
+
+fiveCancelBtn.addEventListener("click", () => {
+    mobileSearchContainer.classList.remove('hide')
+    fivesearchBar.classList.remove("active");
+    fivemobileSearch.classList.add('hide')
+    nav.classList.remove('move-up');
+    desktopNav.classList.remove('move-down');
+    desktopNav.classList.remove('hide');
+    
+});
+
+sixCancelBtn.addEventListener("click", () => {
+    mobileSearchContainer.classList.remove('hide')
+    sixsearchBar.classList.remove("active");
+    sixmobileSearch.classList.add('hide')
+    nav.classList.remove('move-up');
+    desktopNav.classList.remove('move-down');
+    desktopNav.classList.remove('hide');
+    
+});
+
+sevenCancelBtn.addEventListener("click", () => {
+    mobileSearchContainer.classList.remove('hide')
+    sevensearchBar.classList.remove("active");
+    sevenmobileSearch.classList.add('hide')
     nav.classList.remove('move-up');
     desktopNav.classList.remove('move-down');
     desktopNav.classList.remove('hide');
