@@ -438,15 +438,23 @@ const eightLink = document.querySelector('#eight-link');
 const eightLinkClass = document.querySelector('.eight-link')
 const eightCloseButton = document.querySelector('.search-container .eightLink-close ');
 
-
+const activeSearchBar = document.querySelector('.search-container .search-bar.active')
 
 
 
 
 searchButton.addEventListener('click', () => {
-    desktopNav.classList.add('hide');
-    searchContainer.classList.remove('hide');
-    overlay.classList.add('show');
+  // desktopNav.classList.add('hide');
+  searchContainer.classList.remove('hide');
+  firstLink.classList.add('hide');
+  secondLink.classList.add('hide');
+  thirdLink.classList.add('hide')
+  fourthLink.classList.add('hide');
+  fiveLink.classList.add('hide');
+  sixLink.classList.add('hide');
+  sevenLink.classList.add('hide');
+  eightLink.classList.add('hide');
+  overlay.classList.add('show');
 });
 
 tabSearch.addEventListener('click', () => {
@@ -459,8 +467,16 @@ tabSearch.addEventListener('click', () => {
     mobileSearchContainer.classList.add('hide')
     } else {
         
-        desktopNav.classList.add('hide');
-        firstLink.classList.remove('hide');
+        // desktopNav.classList.add('hide');
+      firstLink.classList.remove('hide');
+      searchContainer.classList.add('hide');
+      secondLink.classList.add('hide');
+      thirdLink.classList.add('hide')
+      fourthLink.classList.add('hide');
+      fiveLink.classList.add('hide');
+      sixLink.classList.add('hide');
+      sevenLink.classList.add('hide');
+      eightLink.classList.add('hide');
         overlay.classList.add('show');
     }
 
@@ -475,8 +491,16 @@ secondSearch.addEventListener('click', () => {
     secondmobileSearch.classList.remove('hide')
     mobileSearchContainer.classList.add('hide')
   } else {
-    desktopNav.classList.add('hide');
+    // desktopNav.classList.add('hide');
     secondLink.classList.remove('hide');
+    searchContainer.classList.add('hide');
+    firstLink.classList.add('hide');
+    thirdLink.classList.add('hide')
+    fourthLink.classList.add('hide');
+    fiveLink.classList.add('hide');
+    sixLink.classList.add('hide');
+    sevenLink.classList.add('hide');
+    eightLink.classList.add('hide');
     overlay.classList.add('show');
     }
 });
@@ -490,9 +514,17 @@ thirdSearch.addEventListener('click', () => {
     mobileSearchContainer.classList.add('hide')
      
   } else {
-     desktopNav.classList.add('hide');
-    thirdLink.classList.remove('hide');
-    overlay.classList.add('show');
+    //  desktopNav.classList.add('hide');
+  thirdLink.classList.remove('hide');
+  searchContainer.classList.add('hide'); 
+  firstLink.classList.add('hide');
+    secondLink.classList.add('hide');
+    fourthLink.classList.add('hide');
+    fiveLink.classList.add('hide');
+    sixLink.classList.add('hide');
+    sevenLink.classList.add('hide');
+    eightLink.classList.add('hide');
+  overlay.classList.add('show');
    }
 });
 
@@ -504,8 +536,16 @@ fourthSearch.addEventListener('click', () => {
     fourthmobileSearch.classList.remove('hide')
     mobileSearchContainer.classList.add('hide')
   } else {
-     desktopNav.classList.add('hide');
+    //  desktopNav.classList.add('hide');
     fourthLink.classList.remove('hide');
+    searchContainer.classList.add('hide');
+     firstLink.classList.add('hide');
+    secondLink.classList.add('hide');
+    thirdLink.classList.add('hide')
+    fiveLink.classList.add('hide');
+    sixLink.classList.add('hide');
+    sevenLink.classList.add('hide');
+    eightLink.classList.add('hide');
     overlay.classList.add('show');
    }
 });
@@ -518,8 +558,16 @@ fiveSearch.addEventListener('click', () => {
     fivemobileSearch.classList.remove('hide')
     mobileSearchContainer.classList.add('hide')
   } else {
-    desktopNav.classList.add('hide');
+    // desktopNav.classList.add('hide');
     fiveLink.classList.remove('hide');
+    searchContainer.classList.add('hide');
+    firstLink.classList.add('hide');
+    secondLink.classList.add('hide');
+    thirdLink.classList.add('hide')
+    fourthLink.classList.add('hide');
+    sixLink.classList.add('hide');
+    sevenLink.classList.add('hide');
+    eightLink.classList.add('hide');
     overlay.classList.add('show');
     }
 });
@@ -532,8 +580,16 @@ sixSearch.addEventListener('click', () => {
     sixmobileSearch.classList.remove('hide')
     mobileSearchContainer.classList.add('hide')
   } else {
-     desktopNav.classList.add('hide');
+    //  desktopNav.classList.add('hide');
     sixLink.classList.remove('hide');
+    searchContainer.classList.add('hide');
+    firstLink.classList.add('hide');
+    secondLink.classList.add('hide');
+    thirdLink.classList.add('hide')
+    fourthLink.classList.add('hide');
+    fiveLink.classList.add('hide');
+    sevenLink.classList.add('hide');
+    eightLink.classList.add('hide');
     overlay.classList.add('show');
    }
 });
@@ -546,8 +602,16 @@ sevenSearch.addEventListener('click', () => {
     sevenmobileSearch.classList.remove('hide')
     mobileSearchContainer.classList.add('hide')
   } else {
-    desktopNav.classList.add('hide');
+    // desktopNav.classList.add('hide');
     sevenLink.classList.remove('hide');
+    searchContainer.classList.add('hide');
+    firstLink.classList.add('hide');
+    secondLink.classList.add('hide');
+    thirdLink.classList.add('hide')
+    fourthLink.classList.add('hide');
+    fiveLink.classList.add('hide');
+    sixLink.classList.add('hide');
+    eightLink.classList.add('hide');
     overlay.classList.add('show');
     }
 });
@@ -560,8 +624,16 @@ eightSearch.addEventListener('click', () => {
     eightmobileSearch.classList.remove('hide')
     mobileSearchContainer.classList.add('hide')
   } else {
-     desktopNav.classList.add('hide');
+    // desktopNav.classList.add('hide');
     eightLink.classList.remove('hide');
+    searchContainer.classList.add('hide');
+    firstLink.classList.add('hide');
+    secondLink.classList.add('hide');
+    thirdLink.classList.add('hide')
+    fourthLink.classList.add('hide');
+    fiveLink.classList.add('hide');
+    sixLink.classList.add('hide');
+     sevenLink.classList.add('hide');
     overlay.classList.add('show');
    }
 });
@@ -648,6 +720,11 @@ const menuIconContainer = document.querySelector("nav .menu-icon-container");
 const navContainer = document.querySelector(".nav-container");
 
 menuIconContainer.addEventListener("click", () => {
+  console.log("you clicked me")
+  let mobileLogo = document.querySelector('.new-mobile-logo')
+  
+    mobileLogo.classList.toggle("active")
+  
     navContainer.classList.toggle("active")
 });
 
